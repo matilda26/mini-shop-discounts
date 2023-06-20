@@ -5,14 +5,9 @@ query Input {
       merchandise {
         __typename
         ...on ProductVariant {
-          id
+            id
         }
       }
-    }
-  }
-  discountNode {
-    metafield(namespace: "$app:volume-discount", key: "function-configuration") {
-      value
     }
   }
 }
